@@ -57,6 +57,11 @@ header h3 {
   align-items: center;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+}
+
 .filters input[type="text"] {
   font-size: 14px;
   padding: 0.25rem;

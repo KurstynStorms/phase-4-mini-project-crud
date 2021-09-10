@@ -65,7 +65,7 @@ RSpec.describe "Spices", type: :request do
       expect { post '/spices', params: spice_params }.to change(Spice, :count).by(1)
     end
 
-    it 'returns the spice data' do
+    it 'returns the plant data' do
       post '/spices', params: spice_params
 
       expect(response.body).to include_json({
